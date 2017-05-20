@@ -27,11 +27,7 @@ figcaption {
 /*Class Selectors*/
 
 .milk-text {
-<<<<<<< HEAD
     font: bold 1em 'Open Sans Condensed', sans-serif;
-=======
-    font: bold 2.6em 'Open Sans Condensed', sans-serif;
->>>>>>> 26b52f1572b2cd19b598f00d4f081061abcaa8f5
     color: white;
     text-shadow: 0 2px 3px #000;
 }
@@ -40,11 +36,7 @@ figcaption {
 /* ID Selector */
 
 #logo {
-<<<<<<< HEAD
-    
-=======
     background-color: #1EC0E2;
->>>>>>> 26b52f1572b2cd19b598f00d4f081061abcaa8f5
 }
 
 
@@ -71,7 +63,6 @@ figcaption {
 #details a:active {
     color: 035EC5;
     text-decoration: none;
-<<<<<<< HEAD
 }
 
 /* MEDIA */
@@ -81,7 +72,7 @@ img, video, audio {
 
 /* Layout */
 
-*{
+* {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -155,6 +146,16 @@ header {
       height: 40px;
       background: yellow;
   }
-=======
+
+  .clear {
+      clear: both;
+  }
+
+h1 {
+    margin: 0 10%;
+    padding-bottom: 0;
 }
->>>>>>> 26b52f1572b2cd19b598f00d4f081061abcaa8f5
+
+h2 {
+    margin: 0 10%;
+}
