@@ -2,73 +2,115 @@
 <html lang="en">
 
 <head>
+    <!-- This is a comment. I am learning, thank you very much -->
+    <!--The head section contains info for search engines and the browser and is not seen by site visitors.-->
     <meta charset="UTF-8">
-    <title>Covarrubias Realty - Apartments and Homes for Rent - Listings </title>
+    <title>Covarrubias Realty - Apartments and Homes for Rent </title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Covarrubias</h1>
-    <h2>Realty Group</h2>
 
-    <!-- links -->
-    <a href="index.html">About Us</a> <a href="market-report.html">Market Report</a>
-    <a href="real-estate-listings.html">Real Estate Listings</a>
-    <a href="contact.html">Contact Us</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+<!--FIXED SOCIAL MEDIA BAR-->
+        <div id="social">
+            <a href="#">Facebook</a>
+            <a href="#">Google+</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
 
-    <h3>Property Archive</h3>
-    <h4>2017</h4>
-    <!-- unordered list-->
-    <ul>
-        <li>Dec</li>
-        <li>Nov</li>
-        <li>Oct
+<div class="white-wood"><!--white wood background-->
+<!--FIXED HEADER-->
+    <header class="medium-fade shadow">
+            <div class="wrapper">
+            <div id="logo">
+                <h1>Covarrubias</h1>
+                <h2>Realty Group</h2>
+            </div>
+            </div><!--close wrapper-->
+            
+            <div id="navbar" class="light-fade">
+                <div class="wrapper">
+            <nav>
+                <!-- links -->
+                <a href="index.html">About Us</a> 
+                <a href="market-report.html">Market Report</a>
+                <a class="selected" href="real-estate-listings.html">Real Estate Listings</a>
+                <a href="contact.html">Contact Us</a> 
+                <a href="http://hud.gov" target="_blank">H.U.D.</a>
+            </nav>
+            </div> <!--closing the wrapper-->
+            </div> <!--navbar-->
+    </header>
+
+            <section class="col-2">
+                <div >
+            <h3>Property Archive</h3>
+            <h4>2017</h4>
+            <!-- unordered list-->
             <ul>
-                <li>17th</li>
-                <li>18th</li>
+                <li>Dec</li>
+                <li>Nov</li>
+                <li>Oct
+                    <ul>
+                        <li>17th</li>
+                        <li>18th</li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-    </ul>
+                </div>
+            </section>
+            <section class="col-1"
+                <div >
+            <h3>Popular Listings</h3>
+            <!-- ordered list-->
+            <ol>
+                <li>2604 Bevis St.</li>
+                <li>1107 Hartwick Rd.</li>
+                <li>413 Sikes Rd.</li>
+            </ol>
+                </div>
+            </section>
+</div>
 
-    <h3>Popular Listings</h3>
-    <!-- ordered list-->
-    <ol>
-        <li>2604 Bevis St.</li>
-        <li>1107 Hartwick Rd.</li>
-        <li>413 Sikes Rd.</li>
-    </ol>
+    <!--BOTTOM SECTION WITH CONTACT, LINKS, SOCIAL -->
+        <section id="details" class="medium-fade">
+            <div class="wrapper clearfix clear">
+                <div class="col-1 first border-right">
+                    <h3>Contact</h3>
+                    <p>
+                        <a href="mailto:lorenzocovarrubiasjr@gmail.com">Email</a><br> Phone: 713-425-9559
+                    </p>
+                    <h3>Correspondence</h3>
+                    <address>
+                    Covarrubias Realty<br>
+                    P.O. Box 123 Real St. <br>
+                    Houston TX 77037
+                </address>
+                </div>
 
-    <section id="details">
-        <div>
-            <h3>Contact</h3>
-            <p>
-                <a href="mailto:lorenzocovarrubiasjr@gmail.com">Email</a><br> Phone: 713-425-9559
-            </p>
-            <h3>Correspondence</h3>
-            <address>
-            Covarrubias Realty<br>
-            P.O. Box 123 Real St. <br>
-            Houston TX 77037
-        </address>
-        </div>
+                <div class="col-1 border-right">
+                    <h3>Links</h3>
+                    <p>
+                        <a href="https://www.freecodecamp.com/lorenzocovarrubiasjr" target="_blank"> My FreeCodeCamp </a><br>
+                        <a href="https://github.com/lorenzocovarrubiasjr" target="_blank"> My Github </a><br>
+                        <a href="https://www.linkedin.com/in/lorenzocova/" target="_blank"> My LinkedIn </a>
+                    </p>
+                </div>
 
-        <div>
-            <h3>Links</h3>
-            <p>
-                <a href="https://www.freecodecamp.com/lorenzocovarrubiasjr" target="_blank"> My FreeCodeCamp </a>
-                <a href="https://github.com/lorenzocovarrubiasjr" target="_blank"> My Github </a>
-                <a href="https://www.linkedin.com/in/lorenzocova/" target="_blank"> My LinkedIn </a>
-            </p>
-        </div>
+                <div class="col-1">
+                    <h3>Follow Us</h3>
+                    <a href="#" target="_blank"> Youtube </a><br>
+                    <a href="#" target="_blank"> MySpace </a><br>
+                    <a href="#" target="_blank"> Facebook </a>
+                </div> <!--closes wrapper-->
+        </section>
 
-        <div>
-            <h3>Follow Us</h3>
-            <a href="#" target="_blank"> Youtube </a>
-            <a href="#" target="_blank"> MySpace </a>
-            <a href="#" target="_blank"> Facebook </a>
-    </section>
-
+        <footer>
+            &copy; 1987 Covarrubias Real Estate. All Rights Reserved.
+        </footer>
 </body>
 
 </html>
