@@ -8,7 +8,7 @@
         p {
             font-size: 16px;
             /* px, pt, 100%, em (1em = 16px) */
-            line-height: 1.5 em;
+            line-height: 1.5em;
         }
 
         figcaption {
@@ -68,7 +68,7 @@
             }
 
             #details a:active {
-                color: 035EC5;
+                color: #035EC5;
                 text-decoration: none;
             }
 
@@ -100,8 +100,17 @@ img, video, audio {
     width: 66%;
  }
 
- .col-3 {
- }
+ .col-3 p {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}
 
  [class*="col-"] {
      margin-left: 2%;
@@ -169,11 +178,14 @@ header {
     color: white;
 }
 
+#navbar nav a.menu-icon {
+  display: none;
+}
+
 section {
      padding: 20px;
      margin-bottom: 20px;
      background: white;
-     position: 
  }
 
  #featured-property, h3, table {
@@ -197,23 +209,34 @@ section {
      margin:15%;
  }
 
+.mkrep{
+    margin-top: 18%;
+}
+
+
  
 
  /* SOCIAL */
-  #social {
-      position: fixed;
-      top: 200px;
-      right: 20px;
-      width: 40px;
-      z-index:1;
-  }
+  /*/////// SOCIAL ////////*/
 
-  #social a {
-      display: block;
-      width: 40px;
-      height: 40px;
-      background: yellow;
-  }
+#social {
+  position: fixed;
+  top: 163px;
+  right: 20px;
+  width: 40px;
+  z-index: 2;
+}
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
 
   .clear {
       clear: both;
